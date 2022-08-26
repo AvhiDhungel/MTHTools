@@ -5,8 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.AvhiDh</groupId>
-    <artifactId>SqlUtilities</artifactId>
+    <artifactId>MTHTools</artifactId>
     <version>1.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/AvhiDhungel/MTHTools</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -20,14 +28,6 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
     </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/AvhiDh/github-releases</url>
-        </repository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>
