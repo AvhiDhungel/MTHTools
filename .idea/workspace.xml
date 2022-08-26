@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c8d4cd-e8f6-4391-8fed-075b363cce16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dhu/avhi/SqlUtilities/SqlDataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dhu/avhi/SqlUtilities/SqlDatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dhu/avhi/SqlUtilities/SqlQueryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dhu/avhi/Utilities/Guid.java" afterDir="false" />
+    <list default="true" id="09c8d4cd-e8f6-4391-8fed-075b363cce16" name="Changes" comment="Util">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Projects/SpigotDev/SqlUtilities/src/main/java/SqlUtilities"
+    "last_opened_file_path": "D:/Projects/SpigotDev/DeathSpot"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1661476993438</updated>
     </task>
+    <task id="LOCAL-00001" summary="Util">
+      <created>1661477950608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661477950608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Util" />
+    <option name="LAST_COMMIT_MESSAGE" value="Util" />
   </component>
 </project>
