@@ -1,4 +1,4 @@
-package dhu.avhi.Utilities;
+package com.github.AvhiDh.Utilities;
 
 import java.util.UUID;
 

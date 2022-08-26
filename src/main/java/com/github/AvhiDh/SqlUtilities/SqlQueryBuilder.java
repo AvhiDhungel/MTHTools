@@ -1,4 +1,4 @@
-package dhu.avhi.SqlUtilities;
+package com.github.AvhiDh.SqlUtilities;
 
 public class SqlQueryBuilder {
 

@@ -1,6 +1,6 @@
-package dhu.avhi.SqlUtilities;
+package com.github.AvhiDh.SqlUtilities;
 
-import dhu.avhi.Utilities.Guid;
+import com.github.AvhiDh.Utilities.Guid;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

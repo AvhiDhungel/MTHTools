@@ -1,4 +1,4 @@
-package dhu.avhi.SqlUtilities;
+package com.github.AvhiDh.SqlUtilities;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
