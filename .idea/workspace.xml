@@ -7,10 +7,7 @@
     <list default="true" id="09c8d4cd-e8f6-4391-8fed-075b363cce16" name="Changes" comment="Update Org">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dhu/avhi/SqlUtilities/SqlDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/AvhiDh/SqlUtilities/SqlDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dhu/avhi/SqlUtilities/SqlDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/AvhiDh/SqlUtilities/SqlDatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dhu/avhi/SqlUtilities/SqlQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/AvhiDh/SqlUtilities/SqlQueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dhu/avhi/Utilities/Guid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/AvhiDh/Utilities/Guid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/AvhiDh/SqlUtilities/SqlDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/AvhiDh/SqlUtilities/SqlDatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +27,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="github" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="2Ds9ascscYVGFAqWhDHPnzyCLMM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,7 +47,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Projects/SpigotDev/DeathSpot"
+    "last_opened_file_path": "D:/Projects/SpigotDev/DeathSpot",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -53,21 +60,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Utilities" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MTHTools" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MTHTools" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661480573428</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update Org">
+      <created>1661481774733</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661481774733</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

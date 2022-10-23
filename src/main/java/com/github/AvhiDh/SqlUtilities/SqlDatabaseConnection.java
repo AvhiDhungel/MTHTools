@@ -25,6 +25,7 @@ public class SqlDatabaseConnection {
     }
     public SqlDataReader execute(String query) {
         try {
+            renew();
             Statement s = conn.createStatement();
             return new SqlDataReader(s.executeQuery(query));
         }
@@ -39,6 +40,7 @@ public class SqlDatabaseConnection {
     }
     public void executeNonQuery(String query) {
         try {
+            renew();
             Statement s = conn.createStatement();
             s.executeUpdate(query);
         }
@@ -55,10 +57,13 @@ public class SqlDatabaseConnection {
         }
     }
 
-    public void renew() {
+    public void renew() { renew(false); }
+    public void renew(Boolean force) {
         try {
-            if (!conn.isClosed()){conn.close();}
-            conn = DriverManager.getConnection(getConnectionString(),user,password);
+            if (force || !isValid()) {
+                if (!conn.isClosed()){conn.close();}
+                conn = DriverManager.getConnection(getConnectionString(),user,password);
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
